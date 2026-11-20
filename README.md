@@ -30,13 +30,13 @@ The main variables are:
 
 ## Methodology
 
-1. ### Linear Probability Model
+**1. Linear Probability Model**
 
 As a benchmark, I estimate a linear probability model (OLS) to measure the average effect of an African-American-sounding name on callback probability.
 
 Standard errors are clustered at the job advertisement level to account for potential dependence between applications submitted to the same advertisement.
 
-2. ### Causal Forest
+**2. Causal Forest**
 
 I implement a causal forest using the grf package in R.
 
@@ -51,7 +51,7 @@ Key specifications include:
 
 I use the model to estimate the average treatment effect (ATE) and explore treatment-effect heterogeneity across applicant characteristics.
 
-3. ### Model Evaluation and Robustness
+**3. Model Evaluation and Robustness**
 
 To evaluate the results, I conduct several additional analyses:
 
