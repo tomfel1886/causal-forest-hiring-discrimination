@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project was completed as part of my MSc in Economics at the University of Bern.
+This project was completed as part of the course Machine Learning in Economics during my MSc in Economics at the University of Bern.
 
 The objective is to investigate racial discrimination in the hiring process using causal machine learning methods. Specifically, I examine whether job applicants with African-American-sounding names receive fewer callbacks than applicants with White-sounding names, and whether the effect differs across applicant characteristics.
 
