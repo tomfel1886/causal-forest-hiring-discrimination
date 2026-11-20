@@ -1,11 +1,10 @@
 # Machine Learning 
 # Causal forest analysis
-# Thomas Felder (21-103-098)
 
 ## Loading the packages
 library(grf)
 
-# I use a couple of packages which are not covered in the lecture.
+# I use a couple of packages which were not directly covered in the lecture.
 library(haven) #I use this to load the dataset.
 library(lmtest) #This contains coeftest() for clustering the standard errors.
 library(sandwich) #I use this to construct a clustered variance-covariance matrix. It provides vcovCL()
