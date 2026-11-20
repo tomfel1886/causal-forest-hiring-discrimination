@@ -103,6 +103,10 @@ The dataset is redistributed without modification, with attribution to the origi
 
 The analysis uses a fixed random seed (set.seed(1234)) to support reproducibility.
 
+## Research Paper
+
+The accompanying research paper (paper.pdf) provides a detailed explanation of the research question, methodology, empirical results, and interpretation of the findings.
+
 ## Reference
 
 Bertrand, M., & Mullainathan, S. (2004). Are Emily and Greg More Employable than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination. American Economic Review, 94(4), 991–1013.
