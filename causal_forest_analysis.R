@@ -14,7 +14,7 @@ set.seed(1234)
 
 ######### Loading data
 
-data <- read_dta("lakisha_aer.dta")
+data <- read_dta("data/lakisha_aer.dta")
 
 # Variables are sometimes coded with characters. I need to reconstruct them to create dummies.
 
