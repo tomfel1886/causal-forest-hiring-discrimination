@@ -82,18 +82,26 @@ Main packages:
 * sandwich – Cluster-robust variance estimation.
 * stargazer – Regression tables and presentation of results.
 
-## Reproducibility
+## Data Availability and Reproducibility
 
-The analysis is implemented in R with a fixed random seed (set.seed(1234)).
+The dataset used in this project originates from Bertrand and Mullainathan (2004) and is available through the openICPSR repository.
 
-To reproduce the analysis:
+The dataset (lakisha_aer.dta) is included in the data/ directory to facilitate reproducibility.
 
-1. Install the required R packages.
-2. Obtain the Bertrand and Mullainathan (2004) dataset (available here: https://www.openicpsr.org/openicpsr/project/116023/version/V1/view)
-3. Place the dataset (lakisha_aer.dta) in the project directory.
-4. Run the R script.
+### Data License
 
-The dataset is not included in this repository.
+The original dataset is copyrighted by the American Economic Association (2004) and distributed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+The dataset is redistributed without modification, with attribution to the original authors and copyright holder.
+
+### Reproducing the Analysis
+
+1. Download or clone this repository.
+2. Install the required R packages (grf, haven, lmtest, sandwich, stargazer).
+3. Open the project directory in RStudio.
+4. Run causal_forest_analysis.R.
+
+The analysis uses a fixed random seed (set.seed(1234)) to support reproducibility.
 
 ## Reference
 
