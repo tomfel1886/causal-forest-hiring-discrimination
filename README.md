@@ -30,13 +30,13 @@ The main variables are:
 
 ## Methodology
 
-1. Linear Probability Model
+1. ### Linear Probability Model
 
 As a benchmark, I estimate a linear probability model (OLS) to measure the average effect of an African-American-sounding name on callback probability.
 
 Standard errors are clustered at the job advertisement level to account for potential dependence between applications submitted to the same advertisement.
 
-2. Causal Forest
+2. ### Causal Forest
 
 I implement a causal forest using the grf package in R.
 
@@ -51,7 +51,7 @@ Key specifications include:
 
 I use the model to estimate the average treatment effect (ATE) and explore treatment-effect heterogeneity across applicant characteristics.
 
-3. Model Evaluation and Robustness
+3. ### Model Evaluation and Robustness
 
 To evaluate the results, I conduct several additional analyses:
 
@@ -82,7 +82,7 @@ Main packages:
 * sandwich – Cluster-robust variance estimation.
 * stargazer – Regression tables and presentation of results.
 
-Reproducibility
+## Reproducibility
 
 The analysis is implemented in R with a fixed random seed (set.seed(1234)).
 
@@ -95,7 +95,7 @@ To reproduce the analysis:
 
 The dataset is not included in this repository.
 
-Reference
+## Reference
 
 Bertrand, M., & Mullainathan, S. (2004). Are Emily and Greg More Employable than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination. American Economic Review, 94(4), 991–1013.
 
