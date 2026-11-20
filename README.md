@@ -10,13 +10,13 @@ The analysis is based on the experimental dataset from Bertrand and Mullainathan
 
 The project combines traditional econometric methods with causal machine learning to estimate average and heterogeneous treatment effects.
 
-Research Questions
+## Research Questions
 
 1. Does having an African-American-sounding name affect the probability of receiving a callback?
 2. Does the treatment effect vary across applicant characteristics, such as resume quality, work experience, and skills?
 3. How do estimates from a traditional linear probability model compare with those from a causal forest?
 
-Data
+## Data
 
 The analysis uses data from the correspondence experiment conducted by Bertrand and Mullainathan (2004).
 
@@ -28,7 +28,7 @@ The main variables are:
 * Treatment: Whether the application was assigned an African-American-sounding name.
 * Covariates: Resume characteristics, work experience, education, skills, and neighbourhood characteristics.
 
-Methodology
+## Methodology
 
 1. Linear Probability Model
 
@@ -61,7 +61,7 @@ To evaluate the results, I conduct several additional analyses:
 * Robustness checks using complete observations and an extended set of covariates.
 * Sensitivity analysis using different numbers of trees (500, 2,000, and 10,000).
 
-Visualizations
+## Visualizations
 
 The analysis includes several visualizations:
 
@@ -70,7 +70,7 @@ The analysis includes several visualizations:
 * Estimated treatment effects across resume-quality groups.
 * Estimated treatment effects for selected resume characteristics, including computer skills, volunteering, and employment gaps.
 
-Tools and Packages
+## Tools and Packages
 
 Programming language: R
 
@@ -89,7 +89,7 @@ The analysis is implemented in R with a fixed random seed (set.seed(1234)).
 To reproduce the analysis:
 
 1. Install the required R packages.
-2. Obtain the Bertrand and Mullainathan (2004) dataset.
+2. Obtain the Bertrand and Mullainathan (2004) dataset (available here: https://www.openicpsr.org/openicpsr/project/116023/version/V1/view)
 3. Place the dataset (lakisha_aer.dta) in the project directory.
 4. Run the R script.
 
