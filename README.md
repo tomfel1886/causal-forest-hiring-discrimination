@@ -1,9 +1,6 @@
-# renewable-energy-electricity-prices
-Econometric analysis of the impact of wind and solar energy generation on electricity prices in Germany using R.
+# Causal Forest Analysis: Racial Discrimination in Hiring
 
-Causal Forest Analysis: Racial Discrimination in Hiring
-
-Project Overview
+## Project Overview
 
 This project was completed as part of my MSc in Economics at the University of Bern.
 
