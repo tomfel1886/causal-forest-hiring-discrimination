@@ -4,7 +4,7 @@ This folder contains the dataset lakisha_aer.dta, used for the causal forest ana
 
 The data originate from the correspondence experiment conducted by Bertrand and Mullainathan (2004), which investigates racial discrimination in hiring.
 
-**Source:** [Visit Website](https://www.openicpsr.org/openicpsr/project/116023/version/V1/view) – Bertrand and Mullainathan (2004)
+**Source:** [OPEN ICRSP](https://www.openicpsr.org/openicpsr/project/116023/version/V1/view) – Bertrand and Mullainathan (2004)
 
 **Copyright:** © 2004 American Economic Association
 
